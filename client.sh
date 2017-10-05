@@ -17,5 +17,5 @@ cd cthon04
 make all
 # v3 mount
 mkdir -p /mnt/Ambar
-mount -t nfs -o vers=3 ${SERVER}:${EXPORT} /mnt/nfsv3
-./server -a -p ${EXPORT} -m /mnt/nfsv3 ${SERVER}
+mount -t nfs -o vers=3 ${SERVER}:${EXPORT} /mnt/Ambar
+./server -a -p ${EXPORT} -m /mnt/Ambar ${SERVER}
